@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UIViewController-Responder_Example' do
+  pod 'UIViewController-Responder', :path => '../'
+
+  target 'UIViewController-Responder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
